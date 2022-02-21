@@ -32,7 +32,7 @@ export const Search = () => {
 
   return (
     <div>
-      <Combobox aria-label="Wiki" onSelect={(value) => alert(value)}>
+      <Combobox aria-label="Wiki">
         <ComboboxInput className="wiki-search-input" onChange={handleChange} />
         {results && (
           <ComboboxPopover className="shadow-popup">
