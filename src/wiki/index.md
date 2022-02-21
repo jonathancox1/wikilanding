@@ -3,8 +3,6 @@ description=An wikipedia and brain dump for Jonathan Cox Software Engineer Devel
 date=2022-02-18
 @@@
 
-# Wiki
-
 A brain dump of random thoughts and ideas
 
 **Entries**
