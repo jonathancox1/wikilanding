@@ -42,9 +42,7 @@ export const Search = () => {
                   <ComboboxOption
                     key={index}
                     value={`${result.title}, ${result.content}`}
-                    onClick={() =>
-                      (window.location.href = `https://wiki.jonathan-cox.dev/${result.url}`)
-                    }
+                    onClick={() => (window.location.href = `/${result.url}`)}
                   >
                     <Option term={term} />
                     in Title: <b>{result.title}</b>
