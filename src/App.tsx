@@ -6,7 +6,11 @@ import { Search } from "./Search";
 function App() {
   return (
     <div className="App">
-      <Search />
+      <div className="heading">
+        <h1>wiki</h1>
+        <Search />
+      </div>
+      <hr />
     </div>
   );
 }

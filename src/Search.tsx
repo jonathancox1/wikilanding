@@ -31,9 +31,14 @@ export const Search = () => {
     setTerm(event.target.value);
 
   return (
-    <div>
+    <div style={{ margin: "auto auto 25px" }}>
       <Combobox aria-label="Wiki">
-        <ComboboxInput className="wiki-search-input" onChange={handleChange} />
+        <ComboboxInput
+          className="wiki-search-input"
+          onChange={handleChange}
+          placeholder="search..."
+          style={{ maxWidth: "100%", minWidth: "60%" }}
+        />
         {results && (
           <ComboboxPopover className="shadow-popup">
             {results.length > 0 ? (
