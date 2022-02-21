@@ -24,7 +24,7 @@
     "start": "react-scripts start",
     "clean": "rm -rf ./build && mkdir build",
     "pre-build": "cp -R src/assets build/assets",
-    "build": "npm run pre-build && node buildSearchData.js && react-scripts build && node index.js",
+    "build": "node buildSearchData.js && react-scripts build && node index.js && npm run pre-build",
     "wiki": "node index.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
