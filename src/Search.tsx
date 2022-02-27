@@ -19,7 +19,9 @@ export const Search = () => {
         term.trim() === "" || term.trim().length < 3
           ? null
           : data.filter(
-              (item) => item.title.includes(term) || item.content.includes(term)
+              (item) =>
+                item.title.toLowerCase().includes(term) ||
+                item.content.toLowerCase().includes(term)
             ),
       [term]
     );
@@ -28,7 +30,7 @@ export const Search = () => {
   const results = useFindMatch(term);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) =>
-    setTerm(event.target.value);
+    setTerm(event.target.value.toLowerCase());
 
   return (
     <div style={{ margin: "auto auto 25px" }}>

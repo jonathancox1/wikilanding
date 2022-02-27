@@ -1,4 +1,4 @@
-title=the first post
+title=The First Post
 description=An wikipedia and brain dump for Jonathan Cox Software Engineer Developer
 date=2022-02-19
 @@@

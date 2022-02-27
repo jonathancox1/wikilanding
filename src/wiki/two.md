@@ -1,4 +1,4 @@
-title=fail fast and delete it all
+title=Fail Fast and Delete it All
 description=An wikipedia and brain dump for Jonathan Cox Software Engineer Developer
 date=2022-02-19
 @@@
