@@ -39,7 +39,7 @@ export const Search = () => {
           className="wiki-search-input"
           onChange={handleChange}
           placeholder="search..."
-          style={{ maxWidth: "100%", minWidth: "60%" }}
+          style={{ maxWidth: "500px", minWidth: "250px" }}
         />
         {results && (
           <ComboboxPopover className="shadow-popup">

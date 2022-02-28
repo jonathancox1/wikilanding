@@ -4,7 +4,8 @@
 
 .heading {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto auto;
   font-size: 24px;
   margin: 0 auto;
+  justify-content: space-between;
 }

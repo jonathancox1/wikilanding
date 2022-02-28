@@ -31,7 +31,7 @@ img {
 }
 
 p {
-  margin: 0.5rem 0;
+  margin: 2.5rem 0;
 }
 
 pre {
@@ -57,6 +57,22 @@ td {
   border-collapse: collapse;
   padding: 0.25rem;
   text-align: left;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px 0.5em 20px;
+  quotes: "\201C""\201D""\2018""\2019";
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+blockquote p {
+  display: inline;
+  margin: none;
+  padding: none;
 }
 
 @media only screen and (max-width: 600px) {
