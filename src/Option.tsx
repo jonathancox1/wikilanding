@@ -16,7 +16,7 @@ export const Option = ({ term }: any) => {
   );
 
   return (
-    <div>
+    <div style={{ paddingTop: "5px" }}>
       <b>{justTheTerm}</b>
       {afterTerm}
       ...

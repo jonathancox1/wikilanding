@@ -51,8 +51,8 @@ export const Search = () => {
                     value={`${result.title}, ${result.content}`}
                     onClick={() => (window.location.href = `${result.url}`)}
                   >
+                    <i>{result.title}</i>
                     <Option term={term} />
-                    in Title: <b>{result.title}</b>
                     <hr />
                   </ComboboxOption>
                 ))}
