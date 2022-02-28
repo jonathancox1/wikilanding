@@ -9,3 +9,9 @@
   margin: 0 auto;
   justify-content: space-between;
 }
+
+input,
+select:focus,
+textarea {
+  font-size: 16px;
+}
